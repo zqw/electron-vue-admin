@@ -4,7 +4,7 @@ import store from '../store'
 
 // 创建axios实例
 const service = axios.create({
-  baseURL: process.env.BASE_API, // api的base_url
+  baseURL: "https://easy-mock.com/mock/5950a2419adc231f356a6636/vue-admin", // api的base_url
   timeout: 15000 // 请求超时时间
 })
 
